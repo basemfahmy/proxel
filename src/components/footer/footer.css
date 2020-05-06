@@ -1,0 +1,39 @@
+/*start footer*/
+.footer {
+  background-color: #012641;
+  overflow: hidden;
+  padding-top: 70px;
+}
+.footer p {
+  color: white;
+  text-transform: capitalize;
+}
+.footer .social-links {
+  float: right;
+  position: relative;
+  top: -51px;
+}
+.footer .social-links a {
+  text-decoration: none;
+}
+.footer .social-links a i {
+  border: 1px solid #3b576f;
+  padding: 15px 20px 15px 20px;
+  color: white;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.footer .social-links a i:hover {
+  background-color: #de3940;
+  border-color: #de3940;
+}
+.footer .social-links a .fa-facebook {
+  padding: 15px 23px 15px 23px;
+}
+
+/*end footer*/

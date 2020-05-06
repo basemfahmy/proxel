@@ -1,0 +1,301 @@
+@import "../sass/_sass-vars";
+/*start framework*/
+body{
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.container{max-width: 1200px;}
+.main-box{padding: 80px 0px 70px 0px;}
+h2,h3{text-transform: capitalize;color: $blue-color;}
+h2.heading{font-size: 35px; margin-bottom: 75px; }
+p{color:#8c8c8c;}
+.my-button{
+    background-color: $red-color;
+    border: 1px solid $red-color;
+    color: white;
+    padding: 15px 30px 17px 30px;
+    text-transform: capitalize;
+    &:hover{color: white; text-decoration: none;}
+}
+/*end framework*/
+
+/*start navbar*/
+.main-navbar{
+.bg-light {
+    background-color: white !important;
+    padding: 15px;
+}
+.navbar-light .navbar-brand{
+    text-transform: capitalize ;
+    font-weight:bold;
+    font-size: 25px;
+    color: $blue-color;
+    &:focus,&:hover{ color: $blue-color; outline: none;  }
+}
+.navbar-light .navbar-toggler{
+    border: 1.5px solid $blue-color;
+    padding: 7px 15px 7px 15px;
+    &:focus{outline:none;}
+    i{
+        color: $blue-color;
+    }
+}
+.mr-auto, .mx-auto {margin-left: 190px;}
+.navbar-light .navbar-nav .nav-link{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    &:hover{color: $blue-color;}
+}
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {color: $blue-color;}
+ .search-box{ 
+      position: relative; 
+    left: 199px;
+     i{cursor: pointer;margin-top: 11px;}
+     form input{
+            position: absolute;
+            top: 65px;
+            background:$red-color;
+            border: 1px solid $red-color;
+            color: white;
+            padding: 10px;
+            display: none;
+            top: 85px;
+            z-index: 4;
+            &:focus{outline: none;}
+      } 
+      form input::placeholder{color:white; text-transform: capitalize;}
+     } 
+     .hire-me{ 
+         text-transform: capitalize;
+         padding: 5px 20px 0px 20px;
+         position: relative;
+         top:-3px;
+         a{
+              margin-top: 6px;
+              color: white; 
+              cursor: pointer;
+              background-color: $red-color;
+              padding: 10px 20px 10px 20px;
+              background-color: $red-color;
+              text-decoration: none;
+            }
+       
+}
+}
+/*end navbar*/
+
+/*start go up button*/
+.go-up-button{
+    button{
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: $red-color;
+        color: white;
+        border: 1.5px solid white;
+        padding: 15px 22px 15px 22px;
+        border-radius: 50%;
+        z-index: 666;
+        &:focus{outline: none;}
+        i{font-size: 20px;}
+    }
+}
+/*end go up button*/
+
+/*start header*/
+.header{
+    background-image: url(../images/header-two-80.jpg);
+    background-size: cover;
+    height: 600px;
+    .info{ padding-top: 180px;
+        h2{
+            color: white;
+            font-size: 50px;
+            text-transform: capitalize;
+            width: 43%;
+            line-height: 64px;
+        }
+        .buttons{
+            margin-top: 35px;
+            .my-button{ @include my-transition}
+            .my-button:nth-of-type(1){
+                background:none;
+                border-color: white;
+                margin-right: 13px;
+                &:hover{
+                    background-color: $red-color;
+                    border-color: $red-color;
+                }
+            }
+        }
+    }
+}
+/*end header*/
+
+/*start services*/
+.services {
+    .item{   
+            @include my-transition;
+        &:hover{
+            i {background-color: $red-color; color: white;}
+            }
+       i{
+        background: $gray-back;
+        color:$red-color;
+        padding: 20px;
+        font-size: 17px;
+        border-radius: 50%;
+                   }
+        .info{
+                  position: relative;
+                  left: 92px;
+                  top: -69px;
+                  p{
+                      width: 70%;
+                      margin-top: 10px;
+                    }
+             }
+    }
+}
+/*end services*/
+
+/*start portfolio*/
+.portfolio{
+    h2{text-align: center;}
+    .item{
+         position: relative;
+        margin-bottom: 20px;
+        cursor: pointer;
+        .overlay{
+            position: absolute;
+            background-color:rgba(222,57,64,0.9);
+            width: 100%;
+            height: 100%;
+            display: none;
+         
+            .info{
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 50%;
+                position: absolute;
+                h3{
+                    color: white;
+                    font-size: 25px;
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                a{     
+                    background-color: white;
+                    color: $red-color;
+                    padding: 15px;
+                    display: block;
+                    text-align: center;
+                    text-transform: capitalize;
+                    font-size: 17px;
+                    text-decoration: none;
+                }
+            }
+        }
+        img{width: 100%;}
+    } 
+    .button{
+        text-align: center;
+        margin-top: 70px;
+    }
+}
+/*end portfolio*/
+
+/*start clients*/
+.clients{
+    background-color: $gray-back;
+    padding-bottom: 120px;
+
+    h2{text-align: center;}
+    .item{ text-align:center;
+        img{width: 7%; border-radius: 50%;}
+        .main-p{   width: 58%;
+            padding: 20px 0px 20px 0px;
+            margin: auto;
+            line-height: 27px;
+         }
+         .info{
+             h3{font-size: 25px;}
+             p{text-transform: capitalize;}
+         }
+
+    }
+    .carousel-control-prev,.carousel-control-next{display: none;}
+    .carousel-indicators{ bottom: -50px;}
+    .carousel-indicators li{background-color: $blue-color; height: 8px;}
+}
+/*end clients*/
+
+/*start blogs*/
+.blogs{ padding-bottom: 90px;
+.item{
+    a{text-decoration: none;}
+    img{
+           width: 18%;
+           border-radius: 50%;
+    }
+    .info{  position: relative;
+          left: 133px;
+          top: -84px;
+           h3{width: 76%;margin-bottom: 17px;}
+          p{ 
+            display: inline-block;
+            text-transform: capitalize;
+            margin-right: 30px; 
+             }
+           }
+}  
+    .button{
+    text-align: center;
+    margin-top: 30px;
+}
+}
+/*end blogs*/
+
+/*start newsletter*/
+.newsletter{
+    background-color: $red-color;
+    padding: 50px 0px 45px 0px; 
+    overflow: hidden;
+
+    h2{color: white;}
+    form{ 
+        position: relative;
+        right: -112px;
+        input[type="email"]   { 
+            background-color: transparent;
+             border: 1px solid white;
+             padding: 10px;
+             color: white;
+             width: 55%;
+             &:focus{outline:none ;}
+            }
+    input[type="email"]::placeholder{color: white; text-transform: capitalize;}
+        input[type="submit"]{
+            background-color: white;
+            border: 1px solid white;
+            padding: 10px;
+            text-transform: capitalize;
+            color: $red-color;
+            width: 22%;
+            &:focus{outline: none;}
+        }
+    }
+}
+/*end newsletter*/
+
+
+
+
+
+
+

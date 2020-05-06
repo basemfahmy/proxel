@@ -1,0 +1,25 @@
+/*start xs screen*/
+@media(max-width:575px){
+.footer{text-align: center; padding: 40px 0px 40px 0px;}
+.footer .social-links {float: none;top: 9px;}
+
+}
+/*end xs screen*/
+
+/*start sm screen*/
+@media(min-width:576px) and (max-width:767px){
+.footer{padding-top: 57px;  padding-bottom: 0px;}
+}
+/*end sm screen*/
+
+/*start md screen*/
+@media(min-width:768px) and (max-width:991px){
+
+}
+/*end md screen*/
+
+/*start lg screen*/
+@media(min-width:992px) and (max-width:1199px){
+
+}
+/*end lg screen*/

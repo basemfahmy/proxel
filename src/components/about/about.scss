@@ -1,0 +1,144 @@
+@import "../sass/_sass-vars";
+
+/*start header*/
+
+.header-sm{
+    background-image: url(../images/header-two-80.jpg);
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    p{
+        color: white;
+        text-transform: capitalize;
+        font-size: 40px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+    }
+}
+/*end header*/
+
+/*start about-info*/
+.about-info{
+    .image{
+        h2{    width: 75%;
+            line-height: 42px;
+            margin-bottom: 35px;
+        }
+        img{width: 90%;}
+    }
+     .personal{ margin-top: 140px;
+       p{line-height: 27px; width: 91%;}
+     }
+}
+
+/*end about-info*/
+
+/*start business partners*/
+.business-partners{ 
+    background-color: $gray-back;
+     h2{text-align: center;}
+    .item{  
+        cursor: pointer;
+        text-align: center;
+        padding: 40px 20px 35px 20px;
+        background-color: white;
+        margin-bottom: 35px;
+        @include my-transition;
+        &:hover{
+            box-shadow: 0px -1px 9px -1px rgba(0, 0, 0, 0.1),
+            0 1px 9px 1px rgba(0, 0, 0, 0.1);
+        }
+        img{width: 85%;}
+        .info{ margin-top: 20px;
+            h3{font-size: 25px;}
+            p{text-transform: capitalize;}
+        }
+        .main-p{line-height: 27px;}
+        .links{ padding-top: 10px;
+            a{ text-decoration: none;
+                i{
+                    color:#8c8c8c;
+                    margin-right: 10px;
+                    @include my-transition;
+                    &:hover{
+                         color: $blue-color; 
+                        }
+                }
+            }
+        }
+    }
+}
+/*end business partners*/
+
+/*start skills*/
+.skills{
+    h2{text-align: center;}
+    .item{ text-align: center;
+        .my-progress{position: relative;
+            span{ 
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 50%;
+                font-size: 30px;
+                color: $blue-color;
+            }
+        }
+        h3{margin-top: 17px;}
+    }
+}
+/*end skills*/
+
+/*start clients*/
+.clients-sm{
+    background-color: $gray-back;
+    padding-bottom: 110px;
+    .item{
+        img{
+                width: 18%;
+                position: relative; 
+                top: 28px;
+        }
+        .info{ text-align: left;
+                position: relative;
+                left: -213px;
+            .main-p{width: 100%; margin-top: -17px;}
+           
+        }
+    }
+ .carousel-control-prev,.carousel-control-next{display: none;}
+    .carousel-indicators{ bottom: -50px; left: -295px;}
+    .carousel-indicators li{background-color: $blue-color; height: 8px;}
+}
+/*end clients*/
+
+/*start objectives*/
+.objectives{
+    h2{text-align: center; margin-left: -56px; margin-bottom: 90px;}
+    .item{   
+        @include my-transition;
+    &:hover{
+        i {background-color: $red-color; color: white;}
+        }
+   i{
+    background: $gray-back;
+    color:$red-color;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 50%;
+               }
+    .fa-cog,.fa-star{padding: 20px 21px 20px 21px;}      
+               .info{
+              position: relative;
+              left: 92px;
+              top: -69px;
+              p{
+                  width: 70%;
+                  margin-top: 10px;
+                }
+         }
+}
+}
+/*end objectives*/

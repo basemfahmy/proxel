@@ -1,0 +1,396 @@
+/*start framework*/
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.main-box {
+  padding: 80px 0px 70px 0px;
+}
+
+h2, h3 {
+  text-transform: capitalize;
+  color: #07395c;
+}
+
+h2.heading {
+  font-size: 35px;
+  margin-bottom: 75px;
+}
+
+p {
+  color: #8c8c8c;
+}
+
+.my-button {
+  background-color: #de3940;
+  border: 1px solid #de3940;
+  color: white;
+  padding: 15px 30px 17px 30px;
+  text-transform: capitalize;
+}
+.my-button:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/*end framework*/
+/*start navbar*/
+.main-navbar .bg-light {
+  background-color: white !important;
+  padding: 15px;
+}
+.main-navbar .navbar-light .navbar-brand {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 25px;
+  color: #07395c;
+}
+.main-navbar .navbar-light .navbar-brand:focus, .main-navbar .navbar-light .navbar-brand:hover {
+  color: #07395c;
+  outline: none;
+}
+.main-navbar .navbar-light .navbar-toggler {
+  border: 1.5px solid #07395c;
+  padding: 7px 15px 7px 15px;
+}
+.main-navbar .navbar-light .navbar-toggler:focus {
+  outline: none;
+}
+.main-navbar .navbar-light .navbar-toggler i {
+  color: #07395c;
+}
+.main-navbar .mr-auto, .main-navbar .mx-auto {
+  margin-left: 190px;
+}
+.main-navbar .navbar-light .navbar-nav .nav-link {
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.main-navbar .navbar-light .navbar-nav .nav-link:hover {
+  color: #07395c;
+}
+.main-navbar .navbar-light .navbar-nav .active > .nav-link,
+.main-navbar .navbar-light .navbar-nav .nav-link.active,
+.main-navbar .navbar-light .navbar-nav .nav-link.show,
+.main-navbar .navbar-light .navbar-nav .show > .nav-link {
+  color: #07395c;
+}
+.main-navbar .search-box {
+  position: relative;
+  left: 199px;
+}
+.main-navbar .search-box i {
+  cursor: pointer;
+  margin-top: 11px;
+}
+.main-navbar .search-box form input {
+  position: absolute;
+  top: 65px;
+  background: #de3940;
+  border: 1px solid #de3940;
+  color: white;
+  padding: 10px;
+  display: none;
+  top: 85px;
+  z-index: 4;
+}
+.main-navbar .search-box form input:focus {
+  outline: none;
+}
+.main-navbar .search-box form input::-webkit-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.main-navbar .search-box form input:-ms-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.main-navbar .search-box form input::-ms-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.main-navbar .search-box form input::placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.main-navbar .hire-me {
+  text-transform: capitalize;
+  padding: 5px 20px 0px 20px;
+  position: relative;
+  top: -3px;
+}
+.main-navbar .hire-me a {
+  margin-top: 6px;
+  color: white;
+  cursor: pointer;
+  background-color: #de3940;
+  padding: 10px 20px 10px 20px;
+  background-color: #de3940;
+  text-decoration: none;
+}
+
+/*end navbar*/
+/*start go up button*/
+.go-up-button button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #de3940;
+  color: white;
+  border: 1.5px solid white;
+  padding: 15px 22px 15px 22px;
+  border-radius: 50%;
+  z-index: 666;
+}
+.go-up-button button:focus {
+  outline: none;
+}
+.go-up-button button i {
+  font-size: 20px;
+}
+
+/*end go up button*/
+/*start header*/
+.header {
+  background-image: url(../images/header-two-80.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.header .info {
+  padding-top: 180px;
+}
+.header .info h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+  width: 43%;
+  line-height: 64px;
+}
+.header .info .buttons {
+  margin-top: 35px;
+}
+.header .info .buttons .my-button {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.header .info .buttons .my-button:nth-of-type(1) {
+  background: none;
+  border-color: white;
+  margin-right: 13px;
+}
+.header .info .buttons .my-button:nth-of-type(1):hover {
+  background-color: #de3940;
+  border-color: #de3940;
+}
+
+/*end header*/
+/*start services*/
+.services .item {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.services .item:hover i {
+  background-color: #de3940;
+  color: white;
+}
+.services .item i {
+  background: #f6f6f6;
+  color: #de3940;
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 50%;
+}
+.services .item .info {
+  position: relative;
+  left: 92px;
+  top: -69px;
+}
+.services .item .info p {
+  width: 70%;
+  margin-top: 10px;
+}
+
+/*end services*/
+/*start portfolio*/
+.portfolio h2 {
+  text-align: center;
+}
+.portfolio .item {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.portfolio .item .overlay {
+  position: absolute;
+  background-color: rgba(222, 57, 64, 0.9);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.portfolio .item .overlay .info {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+.portfolio .item .overlay .info h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.portfolio .item .overlay .info a {
+  background-color: white;
+  color: #de3940;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 17px;
+  text-decoration: none;
+}
+.portfolio .item img {
+  width: 100%;
+}
+.portfolio .button {
+  text-align: center;
+  margin-top: 70px;
+}
+
+/*end portfolio*/
+/*start clients*/
+.clients {
+  background-color: #f6f6f6;
+  padding-bottom: 120px;
+}
+.clients h2 {
+  text-align: center;
+}
+.clients .item {
+  text-align: center;
+}
+.clients .item img {
+  width: 7%;
+  border-radius: 50%;
+}
+.clients .item .main-p {
+  width: 58%;
+  padding: 20px 0px 20px 0px;
+  margin: auto;
+  line-height: 27px;
+}
+.clients .item .info h3 {
+  font-size: 25px;
+}
+.clients .item .info p {
+  text-transform: capitalize;
+}
+.clients .carousel-control-prev, .clients .carousel-control-next {
+  display: none;
+}
+.clients .carousel-indicators {
+  bottom: -50px;
+}
+.clients .carousel-indicators li {
+  background-color: #07395c;
+  height: 8px;
+}
+
+/*end clients*/
+/*start blogs*/
+.blogs {
+  padding-bottom: 90px;
+}
+.blogs .item a {
+  text-decoration: none;
+}
+.blogs .item img {
+  width: 18%;
+  border-radius: 50%;
+}
+.blogs .item .info {
+  position: relative;
+  left: 133px;
+  top: -84px;
+}
+.blogs .item .info h3 {
+  width: 76%;
+  margin-bottom: 17px;
+}
+.blogs .item .info p {
+  display: inline-block;
+  text-transform: capitalize;
+  margin-right: 30px;
+}
+.blogs .button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/*end blogs*/
+/*start newsletter*/
+.newsletter {
+  background-color: #de3940;
+  padding: 50px 0px 45px 0px;
+  overflow: hidden;
+}
+.newsletter h2 {
+  color: white;
+}
+.newsletter form {
+  position: relative;
+  right: -112px;
+}
+.newsletter form input[type="email"] {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  width: 55%;
+}
+.newsletter form input[type="email"]:focus {
+  outline: none;
+}
+.newsletter form input[type="email"]::-webkit-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.newsletter form input[type="email"]:-ms-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.newsletter form input[type="email"]::-ms-input-placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.newsletter form input[type="email"]::placeholder {
+  color: white;
+  text-transform: capitalize;
+}
+.newsletter form input[type="submit"] {
+  background-color: white;
+  border: 1px solid white;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #de3940;
+  width: 22%;
+}
+.newsletter form input[type="submit"]:focus {
+  outline: none;
+}
+
+/*end newsletter*/

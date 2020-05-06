@@ -1,0 +1,189 @@
+/*start header*/
+.header-sm {
+  background-image: url(../images/header-two-80.jpg);
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+.header-sm p {
+  color: white;
+  text-transform: capitalize;
+  font-size: 40px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/*end header*/
+/*start about-info*/
+.about-info .image h2 {
+  width: 75%;
+  line-height: 42px;
+  margin-bottom: 35px;
+}
+.about-info .image img {
+  width: 90%;
+}
+.about-info .personal {
+  margin-top: 140px;
+}
+.about-info .personal p {
+  line-height: 27px;
+  width: 91%;
+}
+
+/*end about-info*/
+/*start business partners*/
+.business-partners {
+  background-color: #f6f6f6;
+}
+.business-partners h2 {
+  text-align: center;
+}
+.business-partners .item {
+  cursor: pointer;
+  text-align: center;
+  padding: 40px 20px 35px 20px;
+  background-color: white;
+  margin-bottom: 35px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.business-partners .item:hover {
+  -webkit-box-shadow: 0px -1px 9px -1px rgba(0, 0, 0, 0.1), 0 1px 9px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px -1px 9px -1px rgba(0, 0, 0, 0.1), 0 1px 9px 1px rgba(0, 0, 0, 0.1);
+}
+.business-partners .item img {
+  width: 85%;
+}
+.business-partners .item .info {
+  margin-top: 20px;
+}
+.business-partners .item .info h3 {
+  font-size: 25px;
+}
+.business-partners .item .info p {
+  text-transform: capitalize;
+}
+.business-partners .item .main-p {
+  line-height: 27px;
+}
+.business-partners .item .links {
+  padding-top: 10px;
+}
+.business-partners .item .links a {
+  text-decoration: none;
+}
+.business-partners .item .links a i {
+  color: #8c8c8c;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.business-partners .item .links a i:hover {
+  color: #07395c;
+}
+
+/*end business partners*/
+/*start skills*/
+.skills h2 {
+  text-align: center;
+}
+.skills .item {
+  text-align: center;
+}
+.skills .item .my-progress {
+  position: relative;
+}
+.skills .item .my-progress span {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 30px;
+  color: #07395c;
+}
+.skills .item h3 {
+  margin-top: 17px;
+}
+
+/*end skills*/
+/*start clients*/
+.clients-sm {
+  background-color: #f6f6f6;
+  padding-bottom: 110px;
+}
+.clients-sm .item img {
+  width: 18%;
+  position: relative;
+  top: 28px;
+}
+.clients-sm .item .info {
+  text-align: left;
+  position: relative;
+  left: -213px;
+}
+.clients-sm .item .info .main-p {
+  width: 100%;
+  margin-top: -17px;
+}
+.clients-sm .carousel-control-prev, .clients-sm .carousel-control-next {
+  display: none;
+}
+.clients-sm .carousel-indicators {
+  bottom: -50px;
+  left: -295px;
+}
+.clients-sm .carousel-indicators li {
+  background-color: #07395c;
+  height: 8px;
+}
+
+/*end clients*/
+/*start objectives*/
+.objectives h2 {
+  text-align: center;
+  margin-left: -56px;
+  margin-bottom: 90px;
+}
+.objectives .item {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.objectives .item:hover i {
+  background-color: #de3940;
+  color: white;
+}
+.objectives .item i {
+  background: #f6f6f6;
+  color: #de3940;
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 50%;
+}
+.objectives .item .fa-cog, .objectives .item .fa-star {
+  padding: 20px 21px 20px 21px;
+}
+.objectives .item .info {
+  position: relative;
+  left: 92px;
+  top: -69px;
+}
+.objectives .item .info p {
+  width: 70%;
+  margin-top: 10px;
+}
+
+/*end objectives*/

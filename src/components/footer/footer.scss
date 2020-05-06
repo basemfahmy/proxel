@@ -1,0 +1,33 @@
+@import "../sass/_sass-vars";
+
+/*start footer*/
+.footer{
+    background-color:$footer;
+    overflow: hidden;
+    padding-top: 70px;
+    p{
+        color: white;
+        text-transform: capitalize;
+    }
+    .social-links{
+        float: right;
+        position: relative;
+        top: -51px;
+        a{ text-decoration: none;
+            i{
+                border: 1px solid $gray-color;
+                padding: 15px 20px 15px 20px;
+                color: white;
+                border-radius: 50%;
+                margin-right: 10px;
+                @include my-transition;
+                &:hover{
+                     background-color: $red-color; 
+                     border-color: $red-color;
+                    }
+            }
+            .fa-facebook{padding: 15px 23px 15px 23px;} //facebook only
+        }
+    }
+}
+/*end footer*/

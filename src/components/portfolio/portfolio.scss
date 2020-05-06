@@ -1,0 +1,23 @@
+@import "../sass/_sass-vars";
+
+/*start gallery*/
+.gallery{
+    .navigation{
+        text-align: center;
+        margin-bottom: 80px;
+        button{
+            background-color: white;
+            border: 1.5px solid $blue-color;
+            color: $blue-color;
+            margin-right: 20px;
+            padding: 10px 20px 10px 20px;
+            text-transform: capitalize;
+            outline: none;
+        }
+        button.active{
+            background-color: $blue-color;
+            color: white;
+        }
+    }
+}
+/*end gallery*/

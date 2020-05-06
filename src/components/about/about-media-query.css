@@ -1,0 +1,75 @@
+/*start xs screen*/
+@media(max-width:575px){
+.header-sm p{top: 66%;}
+.about-info .image img {width: 100%;}
+.about-info .personal{margin-top: 40px;}
+.business-partners .item{margin-bottom: 40px;}
+.clients-sm .item .info{left: 0px; text-align: center;}
+.clients-sm .item img{margin-bottom: 50px;}
+.clients-sm .carousel-indicators{left: 0;}
+.clients-sm{padding-top: 34px; padding-bottom: 90px;}
+.skills .item {margin-bottom: 45px;}
+.objectives{text-align: center;}
+.objectives .item .info p,.about-info .personal p,    
+.about-info .image h2 {width: 100%;}
+.objectives .item .info { left: 0px;  top: 26px;}
+.objectives .item{margin-bottom: 70px;} 
+.objectives h2{margin-left: 0px; margin-bottom: 45px;}
+}
+/*end xs screen*/
+
+/*start sm screen*/
+@media(min-width:576px) and (max-width:767px){
+.header-sm p{top: 66%;}
+.objectives .item .info p,.about-info .personal p,    
+.about-info .image h2 {width: 100%;}
+.about-info .image img {width: 100%;}
+.about-info .personal{margin-top: 40px;}
+.clients-sm .item .info{left: 0px; text-align: center;}
+.clients-sm .item img{margin-bottom: 50px;}
+.clients-sm .carousel-indicators{left: 0;}
+.clients-sm{padding-top: 34px; padding-bottom: 90px;}
+.skills .item {margin-bottom: 45px;}
+.objectives .item{margin-bottom: 70px;} 
+.objectives .item .info {left: 0px;top: 24px;}
+.objectives h2{margin-left: 0px;}
+}
+/*end sm screen*/
+
+/*start md screen*/
+@media(min-width:768px) and (max-width:991px){
+.header-sm p{top: 66%;}
+.objectives .item .info p,.about-info .personal p,    
+.about-info .image h2 {width: 100%;}
+.about-info .image img {width: 100%;}
+.about-info .image h2{text-align: center;}
+.about-info .personal{margin-top: 40px;}
+.clients-sm .item .info{left: 0px; text-align: center;}
+.clients-sm .item img{margin-bottom: 50px;}
+.clients-sm .carousel-indicators{left: 0;}
+.clients-sm{padding-top: 34px; padding-bottom: 90px;}
+.clients-sm .item img{width: 14%;}
+.objectives {text-align: center;} 
+.objectives .item .info {left: 0px;top: 24px;}
+.objectives h2{margin-left: 0px;}
+.newsletter{text-align: center;}
+.newsletter form{right: 0px;}
+}
+/*end md screen*/
+
+/*start lg screen*/
+@media(min-width:992px) and (max-width:1199px){
+    .about-info .personal{margin-top: 120px;}
+.objectives h2{margin-left: 0px;}
+.main-navbar .search-box{left: 55px;}
+.clients-sm .item .info {left: -165px;}
+.clients-sm .carousel-indicators {left: -196px;}
+.objectives {text-align: center;} 
+.objectives .item .info {left: 0px;top: 24px;}
+.about-info .image h2,.objectives .item .info p,
+.about-info .personal p,.about-info .image img  {width: 100%;}
+
+
+
+}
+/*end lg screen*/

@@ -1,0 +1,16 @@
+// main vars
+$red-color  :  #de3940;
+$blue-color  :  #07395c;
+$gray-color : #3b576f ;
+$gray-back : #f6f6f6;
+$footer:#012641;
+
+// my mixins
+
+@mixin  my-transition {
+     transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}

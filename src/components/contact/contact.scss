@@ -1,0 +1,60 @@
+@import "../sass/_sass-vars";
+
+.map{  padding-top: 90px;
+    iframe{  
+          width: 100%;
+          height: 530px;
+          border: none;
+    }
+}
+
+.contact-info{
+    .item{   
+        @include my-transition;
+        text-align: center;
+    &:hover{
+        i {background-color: $red-color;  color: white;}
+        }
+   i{
+    background: $gray-back;
+    color:$red-color;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 50%;
+               }
+   .fa-phone,.fa-map-marker {padding: 19px 22px 19px 22px;}  
+    .info{  h3{padding-top: 20px;}
+              p{
+                  width: 100%;
+                  margin-top: 10px;
+                  text-transform: capitalize;
+                }
+         }
+}
+}
+
+.contact-form{
+    h2{text-align: center;}
+    form {
+        .field{
+            p{text-transform: capitalize;;}
+            input,textarea{
+                padding: 10px; 
+                width: 100%;
+                margin-bottom: 25px;
+                border: 1px solid #A9A9A9;
+                &:focus{outline: none;}
+            }
+            textarea{
+                padding-bottom: 150px;
+                resize: none;
+            }
+        }
+         .button{ text-align: center;
+            input[type="submit"]{
+                outline: none;
+                width: 15%;
+            }
+         }
+    }
+}

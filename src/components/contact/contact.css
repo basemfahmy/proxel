@@ -1,0 +1,66 @@
+.map {
+  padding-top: 90px;
+}
+.map iframe {
+  width: 100%;
+  height: 530px;
+  border: none;
+}
+
+.contact-info .item {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  text-align: center;
+}
+.contact-info .item:hover i {
+  background-color: #de3940;
+  color: white;
+}
+.contact-info .item i {
+  background: #f6f6f6;
+  color: #de3940;
+  padding: 20px;
+  font-size: 17px;
+  border-radius: 50%;
+}
+.contact-info .item .fa-phone, .contact-info .item .fa-map-marker {
+  padding: 19px 22px 19px 22px;
+}
+.contact-info .item .info h3 {
+  padding-top: 20px;
+}
+.contact-info .item .info p {
+  width: 100%;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+.contact-form form .field p {
+  text-transform: capitalize;
+}
+.contact-form form .field input, .contact-form form .field textarea {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 25px;
+  border: 1px solid #A9A9A9;
+}
+.contact-form form .field input:focus, .contact-form form .field textarea:focus {
+  outline: none;
+}
+.contact-form form .field textarea {
+  padding-bottom: 150px;
+  resize: none;
+}
+.contact-form form .button {
+  text-align: center;
+}
+.contact-form form .button input[type="submit"] {
+  outline: none;
+  width: 15%;
+}
